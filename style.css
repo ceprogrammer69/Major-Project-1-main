@@ -1,0 +1,133 @@
+/* Index Html */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+a {
+  text-decoration: none !important;
+}
+
+
+#home {
+  background: url(./assets/img/image1.jpg) no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  
+}
+.col-12 {
+  background-color: rgb(86, 121, 121);
+  opacity: 0.8;
+}
+.contact, .schedule {
+  font-size: 20px;
+  padding: 20px;
+}
+#contact-us {
+  background-color: rgb(86, 121, 121);
+  color: white;
+}
+.contact {
+  margin-left: 50px;
+}
+.carousel-item {
+  width:640px;
+
+}
+
+#home2 {
+  background: url(./assets/img/cover1.jpg) no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+  height: 50%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  opacity: 0.8;
+  
+}
+
+.client-rev {
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.carousel-inner img {
+  margin: auto;
+}
+#footer {
+  background-color: rgb(0, 0, 0);
+}
+.lic {
+  color: rgb(154, 171, 171);
+  font-weight: 500;
+}
+.about, .sec, .cont {
+  color: rgb(154, 171, 171);
+  font-weight: bold;
+}
+.email {
+  color: rgb(154, 171, 171);
+  font-weight: bold;
+}
+
+/* Core Values HTML */
+
+
+/* Renovation HTML */
+.reno {
+  background-color: rgb(232, 235, 235);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 60px;
+}
+.reno2 {
+  max-width: 400px;
+}
+
+/* Contact-us HTML */
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+/* Portfolio */
+
+
+
+
+
+
