@@ -23,9 +23,9 @@ a {
   background-color: rgb(86, 121, 121);
   opacity: 0.8;
 }
-.contact, .schedule {
-  font-size: 20px;
-  padding: 20px;
+.schedule {
+  font-size: 24px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #contact-us {
   background-color: rgb(86, 121, 121);
@@ -141,7 +141,9 @@ input[type=submit]:hover {
 .bi-plus {
   color: #0aa16a;
 }
-
+.about2 {
+  color: rgb(240, 240, 240);
+}
 
 
 
