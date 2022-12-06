@@ -120,8 +120,19 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 20px;
 }
-
-
+/* Footer */
+.bi-linkedin {
+  color: #0077b5
+}
+.bi-facebook {
+  color: #3b5998;
+}
+.bi-instagram {
+  color: #8a3ab9;
+}
+.bi-plus {
+  color: #0aa16a;
+}
 
 
 
