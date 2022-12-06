@@ -74,13 +74,85 @@
               </li>
 
               <li class="nav-item">
-                <a class="nav-link fw-bold" href="contact-us.html">Contact Us</a>
+                <a class="nav-link fw-bold" href="contact-us.html" data-bs-toggle="modal" data-bs-target="#myModal4">Contact Us</a>
               </li>
-          </ul>
+            </ul>
+          </div>
+  
         </div>
-
+      </nav> 
+  
       </div>
-    </nav>    
+    </div>
+    <!---------------------------- Modal ------------------------------------>
+    <div class="modal fade" id="myModal4">
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content">
+      
+      <!-- The Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Contact Us</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      
+      <!-- The Modal Body -->
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row justify-content-center">
+            <!-- ---------------First Column----------------- -->
+            <div class="col">
+                <p class="text-center h2 fw-bold">Contact Form</p>
+                <p class="text-center h6">By pressing Submit, you agree to the <a href="#!">Terms and Conditions.</a></p>
+               
+                  <form class="was-validated">
+                    <!-- Email -->
+                    <div>
+                      <label for="username" class="form-label"></label>
+                      <input type="email" class="form-control" id="username" placeholder="Enter Email" required>
+                      <div class="valid-feedback"></div>
+                      <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+                  <!-- FirstName  -->
+                  <div>
+                    <label for="username" class="form-label"></label>
+                    <input type="text" class="form-control" id="username" placeholder="First Name" required>
+                    <div class="valid-feedback"></div>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+                  </div>
+                  <!-- LastName -->
+                  <div>
+                    <label for="username" class="form-label"></label>
+                    <input type="text" class="form-control" id="username" placeholder="Last Name" required>
+                    <div class="valid-feedback"></div>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+                  </div>
+                  <!-- Text Area -->
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="subject">Give us some background on your project</label>
+                    </div>
+                    <div class="col-75">
+                      <textarea id="subject" name="subject" placeholder="Describe your project to us briefly..." style="height:200px"></textarea>
+                    </div>
+                </div>
+        
+                  <!-- Sign-up Button -->
+                  <div class="button d-flex justify-content-center">
+                    <button type="submit" class="btn btn-secondary">Submit</button>
+                  </div>
+        
+                 
+        
+                </form>
+              </div>
+          </div>
+        
+        </div>
+      </div>
+      
+        </div>
+      </div>
+      </div>      
  <!-- -------------Middle Content------------------------- -->
     <div class="container-fluid">
       <div class="row ">
@@ -101,7 +173,6 @@
             <p><u><h4>Renovation Works</h4></u></p>
             <p>While every project begins with a solid foundation, the success of the final product is heavily dependent on attention to detail. We scrutinize our work with a keen eye to ensure no detail is ignored. We produce polished, clean, and refined work with the greatest level of skill.</p>
             <p>Our construction managers have the skills and expertise to masterfully execute any renovation project, from major property renovation to minor household upkeep. Not only will we make your home appealing but also profitable; significantly enhancing resale value.</p>
-            <button type="button" class="btn btn-secondary" onclick="document.location='contact-us.html'">Contact Us To Get Started</button>
           </div>
         </div>
       </div>
