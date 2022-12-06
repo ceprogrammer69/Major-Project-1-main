@@ -73,8 +73,16 @@ a {
   color: rgb(154, 171, 171);
   font-weight: bold;
 }
+.services {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(0, 0, 0);
+}
+.our-services, .desc2 {
+  font-size: 1.3rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(40, 40, 40);
+}
 
-/* Core Values HTML */
 
 
 /* Renovation HTML */
