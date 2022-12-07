@@ -95,6 +95,11 @@ a {
 .reno2 {
   max-width: 400px;
 }
+/* Google Font  */
+.reno-content, .elec-content, .floor-content, .paint-content, .plumbing-content {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2rem;
+}
 
 /* Contact-us HTML */
 * {box-sizing: border-box;}
