@@ -143,5 +143,13 @@ input[type=submit]:hover {
 }
 .about2 {
   color: rgb(240, 240, 240);
+  font-family: 'Raleway', sans-serif;
 }
 
+/* Core Values HTML */
+.core-val, .core-content {
+font-family: 'Roboto Serif', serif;
+}
+.core-content {
+  font-size: 1.2rem;
+}
