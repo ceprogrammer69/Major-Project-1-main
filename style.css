@@ -159,3 +159,29 @@ font-family: 'Roboto Serif', serif;
 .core-content {
   font-size: 1.2rem;
 }
+/* About Us HTML */
+#about-us {
+  background: url(./assets/img/about-us.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+}
+.about-title, .about-title2, .about-content {
+  font-family: 'Roboto Serif', serif;
+}
+.about-title {
+  font-size: 80px;
+}
+.about-title2 {
+  font-weight: bold;
+}
+.about-content {
+  font-size: 20px;
+}
+.cont2 {
+  background-color: rgb(0, 0, 0);
+  opacity: 0.8;
+}
