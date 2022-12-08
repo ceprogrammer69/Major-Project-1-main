@@ -74,7 +74,8 @@ a {
   font-weight: bold;
 }
 .services {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
   color: rgb(0, 0, 0);
 }
 .our-services, .desc2 {
